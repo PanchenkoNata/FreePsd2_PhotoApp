@@ -1,8 +1,15 @@
 @font-face{
     font-family: 'GothamRounded';
-    src: url('../fonts/GothamRounded-Book.otf');
+    src: url('../fonts/GothamRounded-Book.otf') format("opentype");
         
     font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'GothamRounded';
+    src: url("../fonts/GothamRounded-Bold.otf") format("opentype");
+        
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -26,7 +33,9 @@ html {
 .upper {
     text-transform: uppercase;
 }
-
+.bold {
+    font-weight: 700;
+}
 .list_inline_style {
     display: flex;
     padding: 0;
@@ -80,7 +89,6 @@ html {
 
                     li {
                         padding: 0 35px;
-
                         
                         a {
                             text-decoration: none;
@@ -88,7 +96,6 @@ html {
                             font-size: #{$font-size-medium};
                             letter-spacing: 0.2rem;
 
-                            
                             img {
                                 padding-left: 30px;
                                 padding-right: 30px;
@@ -125,7 +132,7 @@ html {
             }
 
             .social {
-                margin: 20px auto;
+                margin: 22px auto;
 
                 ul {
                     margin: 0 auto;
@@ -151,6 +158,40 @@ html {
         .container {
             display: flex;
 
+            .info {
+                box-sizing: border-box;
+                width: 45%;
+                margin-top: 94px;
+                margin-bottom: 87px;
+
+                h2 {
+                    font-size: #{$font-size-medium};
+                    letter-spacing: 0.27rem;
+                    color: #{$color-2};
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    font-size: #{$font-size-small};
+                    line-height: 2;
+                    letter-spacing: 0.18rem;
+                    margin: 40px 0;
+                }
+
+                button {
+                    width: 193px;
+                }
+            }
+
+            .photo {
+                box-sizing: border-box;
+                width: 61%;
+                height: 492px;
+                background-image: url(../images/hand_whith_phone.png);
+                background-size: 110%;
+                background-position: -57px 89px;
+                background-repeat: no-repeat;
+            }
 
         }
     }
@@ -184,7 +225,7 @@ html {
                         
                     }
                 }
-    
+
                 .copyright {
                     margin: 0 20px 20px 0;
                 }
