@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'GothamRounded';
+  src: url("../fonts/GothamRounded-Book.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: 'GothamRounded';
+}
+
+.wrapper header {
+  min-height: 100px;
+  background-color: lightgreen;
+}
+
+.wrapper .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper footer {
+  height: 130px;
+  background-color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.wrapper footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.wrapper footer .container .info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0 20px 20px 0;
+}
+
+.wrapper footer .container .info ul li {
+  list-style-type: none;
+  padding: 0 10px;
+  border-left: 2px solid #1abcdc;
+}
+
+.wrapper footer .container .info ul li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+
+.wrapper footer .container .info ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.wrapper footer .container .info .copyright {
+  margin: 0 20px 20px 0;
+}
+/*# sourceMappingURL=main.css.map */

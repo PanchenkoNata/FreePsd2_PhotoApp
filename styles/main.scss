@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'GothamRounded';
+    src: url('../fonts/GothamRounded-Book.otf');
+        
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+.wrapper {
+    width: 100%;
+    font-family: 'GothamRounded';
+    
+
+    header {
+        min-height: 100px;
+        background-color: lightgreen;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    footer {
+        height: 130px;
+        background-color: #ffffff;
+        font-size: 1.4rem;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .info {
+                ul {
+                    display: flex;
+                    padding: 0;
+                    margin: 0 20px 20px 0;
+    
+                    li {
+                        list-style-type: none;
+                        padding: 0 10px;
+                        border-left: 2px solid #1abcdc;                    
+    
+                        &:first-child {
+                            padding-left: 0;
+                            border-left: none;
+                        }
+    
+                        a {
+                            text-decoration: none;
+                            color: #000000;
+                        }
+                    }
+                }
+    
+                .copyright {
+                    margin: 0 20px 20px 0;
+                }
+            }
+            
+
+        }
+
+
+    
+    }
+}
