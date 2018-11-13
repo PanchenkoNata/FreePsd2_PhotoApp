@@ -24,7 +24,7 @@ $font-size-small: $font-size-base * 1.2;
 $font-size-normal: $font-size-base * 1.4;
 $font-size-medium: $font-size-base * 1.8;
 $font-size-large: $font-size-base * 2.4;
-$font-size-xlarge: $font-size-base * 3.6;
+$font-size-xlarge: $font-size-base * 3.2;
 
 html {
     font-size: #{$font-size-base};
@@ -70,7 +70,6 @@ html {
     }
 
     header {
-        
         background-color: #{$color-2};
         background-image: url("../images/backgr_header.jpg");
         background-size: cover;
@@ -80,7 +79,7 @@ html {
                        
             nav {
                 width: 80%;
-                margin: 40px auto;
+                margin: 49px auto;
 
                 .menu {
                     align-items: center;
@@ -88,13 +87,13 @@ html {
                     justify-content: center;
 
                     li {
-                        padding: 0 35px;
+                        padding: 0 34px;
                         
                         a {
                             text-decoration: none;
                             color: #{$color-1};
-                            font-size: #{$font-size-medium};
-                            letter-spacing: 0.2rem;
+                            font-size: #{$font-size-normal};
+                            letter-spacing: 0.4rem;
 
                             img {
                                 padding-left: 30px;
@@ -107,7 +106,7 @@ html {
 
             .info {
                 text-align: center;
-                margin-top: 235px;
+                margin-top: 228px;
                 margin-bottom: 220px;
 
                 h1, .intro, button {
@@ -116,12 +115,12 @@ html {
                 }
                 h1 {
                     font-size: #{$font-size-xlarge};
-                    letter-spacing: 0.6rem;
-                    margin-bottom: 6px;
+                    letter-spacing: 0.8rem;
+                    margin-bottom: 13px;
                 }
 
                 .intro {
-                    font-size: #{$font-size-medium};
+                    font-size: #{$font-size-base * 1.5};
                     letter-spacing: 0.3rem;
                     margin-bottom: 5px;
                 }
@@ -196,7 +195,104 @@ html {
         }
     }
 
+    .design {
+        background-color: #{$color-1};
 
+        .container {
+            display: flex;
+            align-items: stretch;
+
+            .photo {
+                box-sizing: border-box;
+                width: 61%;
+                background-image: url(../images/phone_2.png);
+                background-size: 60%;
+                background-position: 0 143px;
+                background-repeat: no-repeat;
+                margin-left: -4px;
+            }
+
+            .info {
+                box-sizing: border-box;
+                width: 45%;
+                margin-left: 120px;
+
+                h2 {
+                    font-size: #{$font-size-medium};
+                    letter-spacing: 0.27rem;
+                    color: #{$color-2};
+                    margin-top: 140px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: #{$font-size-small};
+                    line-height: 2;
+                    letter-spacing: 0.18rem;
+                    margin: 40px 0;
+                }
+
+                button {
+                    width: 193px;
+                }
+
+                .check_photo {
+                    margin: 26px 0 75px;
+
+                    .check-info {
+                        letter-spacing: 0.07rem;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: #{$font-size-large};
+                        color: #{$color-base};
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .community {
+        background-color: #{$color-bgr};
+
+        .container {
+            display: flex;
+
+            .photo {
+                box-sizing: border-box;
+                width: 33%;
+                height: 492px;
+            }
+
+            .info {
+                box-sizing: border-box;
+                width: 33%;
+                margin-top: 126px;
+                margin-bottom: 87px;
+                margin-left: 120px;
+
+                h2 {
+                    font-size: #{$font-size-medium};
+                    letter-spacing: 0.27rem;
+                    color: #{$color-base};
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    font-size: #{$font-size-base};
+                    line-height: 2;
+                    letter-spacing: 0.18rem;
+                    margin: 40px 0;
+                }
+
+                button {
+                    width: 193px;
+                }
+            }
+        }
+    }
 
     footer {
         height: 130px;
