@@ -301,7 +301,7 @@ html {
           box-sizing: border-box;
   width: 82%;
   padding-left: 7.2%;
-  margin: 63px 0 120px;
+  margin: 79px 0 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,6 +335,26 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 49%;
+}
+
+.wrapper .send_email {
+  background-image: url("../images/send_email_bgr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.wrapper .send_email .container .info {
+  text-align: center;
+  margin-top: 346px;
+  margin-bottom: 414px;
+}
+
+.wrapper .send_email .container .info h2 {
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.35rem;
+  margin: 10px 0;
 }
 
 .wrapper footer {

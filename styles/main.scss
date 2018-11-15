@@ -288,7 +288,7 @@ html {
                 box-sizing: border-box;
                 width: 82%;
                 padding-left: 7.2%;
-                margin: 63px 0 120px;
+                margin: 79px 0 115px;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
@@ -316,6 +316,27 @@ html {
                     box-sizing: border-box;
                     width: 49%;
                    
+                }
+            }
+        }
+    }
+
+    .send_email {
+        background-image: url("../images/send_email_bgr.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        .container {
+            .info {
+                text-align: center;
+                margin-top: 346px;
+                margin-bottom: 414px;
+                h2 {
+                    color: #{$color-1};
+                    font-size: #{$font-size-large};
+                    letter-spacing: 0.35rem;
+                    margin: 10px 0;
                 }
             }
         }
