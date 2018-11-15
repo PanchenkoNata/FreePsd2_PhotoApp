@@ -302,6 +302,14 @@ html {
   width: 82%;
   padding-left: 7.2%;
   margin: 63px 0 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .wrapper .community .container .gallery .check_photo {
@@ -327,10 +335,6 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 49%;
-}
-
-.wrapper .send_email {
-  background: url("../images/send_email_bgr.jpg") cover no-repeat;
 }
 
 .wrapper footer {

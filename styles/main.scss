@@ -289,7 +289,10 @@ html {
                 width: 82%;
                 padding-left: 7.2%;
                 margin: 63px 0 120px;
-                
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
                 .check_photo {
                     width: 100%;
                     margin: 10px 0 31px;
@@ -316,10 +319,6 @@ html {
                 }
             }
         }
-    }
-
-    .send_email {
-        background: url("../images/send_email_bgr.jpg") cover no-repeat;
     }
 
     footer {
