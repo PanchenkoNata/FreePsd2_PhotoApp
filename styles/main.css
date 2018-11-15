@@ -271,38 +271,66 @@ html {
   display: flex;
 }
 
-.wrapper .community .container .photo {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 33%;
-  height: 492px;
-}
-
 .wrapper .community .container .info {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 33%;
-  margin-top: 126px;
-  margin-bottom: 87px;
-  margin-left: 120px;
+  width: 18%;
+  margin-top: 164px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .wrapper .community .container .info h2 {
-  font-size: 18px;
-  letter-spacing: 0.27rem;
+  font-size: 16px;
+  letter-spacing: 0.25rem;
   color: #000000;
-  margin-bottom: 40px;
+  margin-top: 27px;
+  margin-bottom: 10px;
 }
 
 .wrapper .community .container .info p {
-  font-size: 10px;
-  line-height: 2;
-  letter-spacing: 0.18rem;
-  margin: 40px 0;
+  font-size: 9px;
+  line-height: 1.4;
+  letter-spacing: 0.21rem;
+  margin: 19px 0;
+  padding: 0 3px;
 }
 
-.wrapper .community .container .info button {
-  width: 193px;
+.wrapper .community .container .gallery {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 82%;
+  padding-left: 7.2%;
+  margin: 63px 0 120px;
+}
+
+.wrapper .community .container .gallery .check_photo {
+  width: 100%;
+  margin: 10px 0 31px;
+  position: relative;
+  text-align: right;
+}
+
+.wrapper .community .container .gallery .check_photo .links {
+  position: absolute;
+  right: 0;
+}
+
+.wrapper .community .container .gallery .check_photo .links a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000000;
+  margin-right: 15px;
+}
+
+.wrapper .community .container .gallery .photo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 49%;
+}
+
+.wrapper .send_email {
+  background: url("../images/send_email_bgr.jpg") cover no-repeat;
 }
 
 .wrapper footer {

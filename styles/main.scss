@@ -260,38 +260,66 @@ html {
         .container {
             display: flex;
 
-            .photo {
-                box-sizing: border-box;
-                width: 33%;
-                height: 492px;
-            }
-
             .info {
                 box-sizing: border-box;
-                width: 33%;
-                margin-top: 126px;
-                margin-bottom: 87px;
-                margin-left: 120px;
+                width: 18%;
+                margin-top: 164px;
+                margin-bottom: 50px;
+                text-align: center;
 
                 h2 {
-                    font-size: #{$font-size-medium};
-                    letter-spacing: 0.27rem;
+                    font-size: #{$font-size-base * 1.6};
+                    letter-spacing: 0.25rem;
                     color: #{$color-base};
-                    margin-bottom: 40px;
+                    margin-top: 27px;
+                    margin-bottom: 10px;
                 }
 
                 p {
-                    font-size: #{$font-size-base};
-                    line-height: 2;
-                    letter-spacing: 0.18rem;
-                    margin: 40px 0;
+                    font-size: #{$font-size-base * 0.9};
+                    line-height: 1.4;
+                    letter-spacing: 0.21rem;
+                    margin: 19px 0;
+                    padding: 0 3px;
+                }
+            }
+
+            .gallery {
+                box-sizing: border-box;
+                width: 82%;
+                padding-left: 7.2%;
+                margin: 63px 0 120px;
+                
+                .check_photo {
+                    width: 100%;
+                    margin: 10px 0 31px;
+                    position: relative;
+                    text-align: right;
+
+                    .links {
+                        position: absolute;
+                        right: 0;
+
+                        a {
+                            text-decoration: none;
+                            font-size: #{$font-size-large};
+                            color: #{$color-base};
+                            margin-right: 15px;
+                        }
+                    }
                 }
 
-                button {
-                    width: 193px;
+                .photo {
+                    box-sizing: border-box;
+                    width: 49%;
+                   
                 }
             }
         }
+    }
+
+    .send_email {
+        background: url("../images/send_email_bgr.jpg") cover no-repeat;
     }
 
     footer {
